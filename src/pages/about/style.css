@@ -2,8 +2,15 @@
     margin-bottom: calc(3rem + 5.128vw)
 }
 
+.responsibility-text {
+    font-size: 0.9rem;
+    font-style: italic;
+
+}
+
 .table td,
 .table th {
+    background-color: var(--bg-color);
     color: var(--text-color);
 }
 
@@ -76,6 +83,7 @@
         -webkit-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: translateZ(0);
@@ -89,6 +97,7 @@
         -webkit-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: translateZ(0);

@@ -57,8 +57,8 @@
 }
 
 .po_item:hover .content {
-    height: calc(100% - 30px);
-    width: calc(100% - 30px);
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
     opacity: 1;
 }
 
