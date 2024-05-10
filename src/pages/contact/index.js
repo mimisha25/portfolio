@@ -40,7 +40,7 @@ export default function ContactUs() {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! ,Thank you for your messege",
             variant: "success",
             show: true,
           });
@@ -159,7 +159,7 @@ export default function ContactUs() {
           </Col>
         </Row>
       </Container>
-      <div className={formData.loading ?"loading-bar" : "d-none"}></div>
+      <div className={formData.loading ? "loading-bar" : "d-none"}></div>
     </HelmetProvider>
   );
 }
