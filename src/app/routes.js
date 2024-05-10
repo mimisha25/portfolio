@@ -1,47 +1,42 @@
-
 import React from "react";
-import { Route } from "react-router-dom";
-import { AnimatedSwitch } from "react-router-transition";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 import Home from "../pages/home";
 import About from "../pages/about";
 import Portfolio from "../pages/portfolio";
 import ContactUs from "../pages/contact";
+import OfficeTools from '../pages/portfolio/officeTools';
+import Games from '../pages/portfolio/games';
+import Shopping from '../pages/portfolio/shopping';
+import ClubDiscussion from '../pages/portfolio/clubDiscussion';
+import Blog from '../pages/portfolio/blog';
+
 
 function AppRoutes() {
+  const location = useLocation();
+
   return (
-    <AnimatedSwitch
-      atEnter={anim.atEnter}
-      atLeave={anim.atLeave}
-      atActive={anim.atActive}
-      mapStyles={mapStyles}
-      className="page"
-    >
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/portfolio" component={Portfolio} />
-      <Route path="/contact" component={ContactUs} />
-      <Route path="*" component={Home} />
-    </AnimatedSwitch>
+    <TransitionGroup className="page-transition-container">
+      <CSSTransition
+        key={location.key}
+        classNames="fade"
+        timeout={300}
+      >
+        <Routes location={location}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/officeTools" element={<OfficeTools />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/shopping" element={<Shopping />} />
+          <Route path="/clubDiscussion" element={<ClubDiscussion />} />
+          <Route path="/games" element={<Games />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="*" element={<Home />} />
+        </Routes>
+      </CSSTransition>
+    </TransitionGroup>
   );
 }
-
-function mapStyles(styles) {
-  return {
-    transition: `transform 100ms ease`,
-    transform: `translateY(${styles.translateY}%)`,
-  };
-}
-
-const anim = {
-  atEnter: {
-    translateY: 100,
-  },
-  atLeave: {
-    translateY: -130,
-  },
-  atActive: {
-    translateY: 0,
-  },
-};
 
 export default AppRoutes;

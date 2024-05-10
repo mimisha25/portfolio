@@ -1,28 +1,29 @@
 import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, useLocation, withRouter } from "react-router-dom";
+import { BrowserRouter as Router, useLocation } from "react-router-dom";
 import AppRoutes from "./routes";
 import NavBar from "../navbar";
 import Socialicons from "../components/socialicons";
 import "./App.css";
 
-function _ScrollToTop(props) {
-  const { pathname } = useLocation();
+function ScrollToTop() {
+  const location = useLocation();
+
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [pathname]);
-  return props.children;
+  }, [location]);
+
+  return null;
 }
-const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
+  console.log("App is rendering...");
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <ScrollToTop>
-        <NavBar />
-        <AppRoutes />
-        <Socialicons />
-      </ScrollToTop>
+      <ScrollToTop />
+      <NavBar />
+      <AppRoutes />
+      <Socialicons />
     </Router>
   );
 }
