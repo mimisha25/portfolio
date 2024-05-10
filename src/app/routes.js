@@ -7,9 +7,6 @@ import Portfolio from "../pages/portfolio";
 import ContactUs from "../pages/contact";
 import OfficeTools from '../pages/portfolio/officeTools';
 import Games from '../pages/portfolio/games';
-import Shopping from '../pages/portfolio/shopping';
-import ClubDiscussion from '../pages/portfolio/clubDiscussion';
-import Blog from '../pages/portfolio/blog';
 
 
 function AppRoutes() {
@@ -27,9 +24,6 @@ function AppRoutes() {
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/officeTools" element={<OfficeTools />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/shopping" element={<Shopping />} />
-          <Route path="/clubDiscussion" element={<ClubDiscussion />} />
           <Route path="/games" element={<Games />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="*" element={<Home />} />
