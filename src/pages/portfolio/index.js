@@ -3,6 +3,7 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../hook";
+import { Link } from "react-router-dom";
 
 function Portfolio() {
   return (
@@ -25,8 +26,24 @@ function Portfolio() {
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
                 <div className="content">
-                  <p>{data.desctiption}</p>
-                  <a href={data.link}>view project</a>
+                  <h2 className="text-primary">{data.description}</h2>
+                  <ul className="h6 " style={{ textAlign: 'left' }}>
+                    <li className="py-2">{data.description1}</li>
+                    <li className="py-2">{data.description2}</li>
+                    <li className="py-2">{data.description3}</li>
+                    <li className="py-2">{data.description4}</li>
+                  </ul>
+                  <div className="inline">
+                    {data.website && (
+                      <a href={data.website}>WebSite</a>
+                    )}
+                    {data.link && (
+                      <a href={data.link}>All Projects</a>
+                    )}
+                    {data.github && (
+                      <a href={data.github}>GitHub</a>
+                    )}
+                  </div>
                 </div>
               </div>
             );
