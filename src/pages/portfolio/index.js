@@ -35,12 +35,12 @@ function Portfolio() {
                   </ul>
                   <div className="inline">
                     {data.website && (
-                      <a href={data.website}>WebSite</a>
+                      <Link to={data.website}>WebSite</Link>
                     )}
                     {data.link && (
                       <Link to={data.link}>All Projects</Link>)}
                     {data.github && (
-                      <a href={data.github}>GitHub</a>
+                      <Link to={data.github}>GitHub</Link>
                     )}
                   </div>
                 </div>
