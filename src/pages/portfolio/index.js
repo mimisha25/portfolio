@@ -38,8 +38,7 @@ function Portfolio() {
                       <a href={data.website}>WebSite</a>
                     )}
                     {data.link && (
-                      <a href={data.link}>All Projects</a>
-                    )}
+                      <Link to={data.link}>All Projects</Link>)}
                     {data.github && (
                       <a href={data.github}>GitHub</a>
                     )}
