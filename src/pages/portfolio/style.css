@@ -1,7 +1,7 @@
 .po_items_ho {
-    column-width: 15em;
-    -moz-column-width: 15em;
-    -webkit-column-width: 15em;
+    column-width: 20em;
+    -moz-column-width: 20em;
+    -webkit-column-width: 20em;
     column-gap: 4rem;
     -moz-column-gap: 4rem;
     -webkit-column-gap: 4rem;
@@ -11,18 +11,23 @@
     display: inline-block;
     width: 100%;
     text-align: center;
-    margin: 0.5rem auto;
+    margin: 1.5rem auto;
     position: relative;
     background: var(--secondary-color);
     padding: 6px;
     border: 1px solid var(--secondary-color);
     transition: 0.3s ease;
     font-size: 0;
-    min-height: 300px;
+    height: 100%;
+    min-height: 450px;
+    box-sizing: border-box;
 }
 
 .po_item img {
     max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+    min-height: 450px;
 }
 
 .po_item .content {

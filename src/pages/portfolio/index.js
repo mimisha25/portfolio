@@ -16,7 +16,8 @@ function Portfolio() {
         </Helmet>
         <Row className="mb-5 mt-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
+            <h1 className="display-4 mb-4"> Portfolio</h1>{" "}
+            <h3 className="mb-4">15 Projects. From simple to Full Stack Apps (RESTful API)</h3>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -27,11 +28,12 @@ function Portfolio() {
                 <img src={data.img} alt="" />
                 <div className="content">
                   <h2 className="text-primary">{data.description}</h2>
-                  <ul className="h6 " style={{ textAlign: 'left' }}>
+                  <ul className="h6" style={{ textAlign: 'left' }}>
                     <li className="py-2">{data.description1}</li>
                     <li className="py-2">{data.description2}</li>
                     <li className="py-2">{data.description3}</li>
                     <li className="py-2">{data.description4}</li>
+                    <li className="py-2"><i>{data.description5}</i></li>
                   </ul>
                   <div className="inline">
                     {data.website && (

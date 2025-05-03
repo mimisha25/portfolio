@@ -112,93 +112,72 @@ const skills = [{
 const dataportfolio = [
     {
         img: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D",
-        description: "Office Tools",
-        description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-        description2: "NODJS: Express.js",
-        description3: "HTML&CSS: Responsive, Advanced HTML",
-        description4: "DEPLOYMENT: Render",
+        description: "Office Tools Collection",
+        description1: "Explore 5 Front-End websites",
+        description2: "fully created in JavaScript,",
+        description3: "Advanced HTML & Responsive CSS",
+        description4: "deployed in render.com",
         link: "/officeTools",
-
-    },
-    {
-        img: "https://i.postimg.cc/W4nwgmPS/Screen-Shot-2021-08-26-at-12-47-06.png",
-        desctiption: "Movie Project is done with JavaScript to develop similar website as Movie IMBD.",
-        description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-        description2: "NODJS: Express.js",
-        description3: "HTML&CSS: Responsive, Advanced HTML",
-        description4: "DEPLOYMENT: Render",
-        website: "https://github.com/mimisha25/movieproject",
-
-    },
-    {
-        img: "https://i.postimg.cc/y6gBQvrJ/Screen-Shot-2021-08-26-at-12-52-16.png",
-        desctiption: "The website (React) finds people who lives around your district.",
-        description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-        description2: "NODJS: Express.js",
-        description3: "HTML&CSS: Responsive, Advanced HTML",
-        description4: "DEPLOYMENT: Render",
-        website: "https://github.com/ReCoded-Org/capstone-turkey-love-thy-neighbour",
-
-    },
-    {
-        img: "https://i.postimg.cc/8kyXqS9w/Screen-Shot-2021-08-26-at-12-47-28.png",
-        desctiption: "MadLibs game website is developped by JavaScript. You can play in 2 columns.",
-        description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-        description2: "NODJS: Express.js",
-        description3: "HTML&CSS: Responsive, Advanced HTML",
-        description4: "DEPLOYMENT: Render",
-        website: "https://github.com/mimisha25/MadLibs-Project",
-
     },
     {
         img: "https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FtZXN8ZW58MHwyfDB8fHwy",
-        description: "Games",
-        description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-        description2: "NODJS: Express.js",
-        description3: "HTML&CSS: Responsive, Advanced HTML",
-        description4: "DEPLOYMENT: Render",
+        description: "Games Collection",
+        description1: "In Games Collection you can find",
+        description2: "4 Front-End websites, created",
+        description3: "in Javascript,  Responsive CSS",
+        description4: "and Advanced HTML with deployment in render.com",
         link: "/games",
-
     },
     {
         img: "https://images.unsplash.com/photo-1713929644020-1cdf48ca0d12?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG9ubGluZSUyMHNob3BwaW5nfGVufDB8MnwwfHx8Mg%3D%3D",
         description: "Shopping App",
-        description1: "JAVASCRIPT: React JS",
-        description2: "NODJS: Express.js, ",
-        description3: "HTML&CSS: Responsive, Advanced HTML, TailWind",
-        description4: "DATABASE: PostgreSQL, Prisma ORM",
+        description1: "FRONTEND: JavaScript, React JS, Responsive CSS, Advanced HTML",
+        description2: "FRAMEWORK: Bootstrap",
+        description3: "DEPLOYMENT: Render",
+        description4: "TEST & QA: Jest, ViTest",
         website: "https://shopping-cart-0duu.onrender.com/",
         github: "https://github.com/mimisha25/Shopping-Cart-TOP"
     },
     {
         img: "https://images.unsplash.com/photo-1589807464345-498cf8186b42?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJsb2dnaW5nfGVufDB8MnwwfHx8Mg%3D%3D",
-        description: "Blog Post",
-        description1: "FRONTEND: REACT",
-        description2: "BACKEND: NODJS, Express.js, JWT, Multer",
-        description3: "FRAMEWORK: Tailwind",
-        description4: "DEPLOYMENT: Render, Cloudinary",
-        link: "/blog",
-
+        description: "Blog Post App",
+        description1: "FRONTEND: Vite, Vite, REACT JS, Responsive CSS, Advanced HTML",
+        description2: "BACKEND: NODJS, Express.js, JWT, Multer, Prisma ORM, PostgreSQL, CORS, cookie parser, BcryptJS, MVC",
+        description3: "FRAMEWORK: Tailwind, Bootstrap, ReactQuill, Yup, Formik, Axios",
+        description4: "DEPLOYMENT: Render, Cloudinary, Render Database",
+        description5: `TEST: username: john, password: 123`,
+        website: "https://blog-user.onrender.com/",
+        github: "https://github.com/mimisha25/Blog-Readers-Front-End-TOP"
+    },
+    {
+        img: "https://images.unsplash.com/photo-1586187543706-b43086b30978?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmlsZSUyMHVwbG9hZGVyfGVufDB8MnwwfHx8Mg%3D%3D",
+        description: "File Uploader",
+        description1: "FRONTEND: EJS, JavaScript, HTML&CSS",
+        description2: "BACKEND:NodeJS, Express.js, Multer, PassportJS, Prisma ORM, PostgreSQL, BcryptJS, Express Session, MVC",
+        description3: "FRAMEWORK: Bootstrap, Bootstrap Icons",
+        description4: "DEPLOYMENT: Render, Cloudinary, Neon Database",
+        description5: `TEST: username: john, password: 123`,
+        website: "https://folder-management.onrender.com",
+        github: "https://github.com/mimisha25/folder-management-top"
     },
     {
         img: "https://images.unsplash.com/photo-1698006150156-3779d5c2306c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGlzY3Vzc2lvbnxlbnwwfDJ8MHx8fDI%3D",
         description: "Car Discussion",
-        description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-        description2: "NODJS: Express.js",
-        description3: "HTML&CSS: Responsive, Advanced HTML",
-        description4: "DEPLOYMENT: Render",
+        description1: "FRONTEND: JavaScript,Responsive CSS, Advanced HTML",
+        description2: "BACKEND: NodeJS, Express.js, PostgreSQL, Express Session, PassportLocal, BscryptJS, PG, MVC",
+        description3: "FRAMEWORK: EJS, Bootstrap, Bootstrap Validation",
+        description4: "DEPLOYMENT: Render, Neon DataBase",
+        description5: `TEST: email: john@c.com, password: 123`,
         website: "https://members-only-car.onrender.com/",
         github: "https://github.com/mimisha25/Inventory-App-TOP"
-    },
-];
+    }];
 
 const officeTools = [
     {
         img: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FsY3VsYXRvcnxlbnwwfDJ8MHx8fDI%3D",
         description: "Calculator",
-        description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-        description2: "NODJS: Express.js",
-        description3: "HTML&CSS: Responsive, Advanced HTML",
+        description1: "JAVASCRIPT: Vanilla JS",
+        description3: "HTML&CSS: Responsive CSS, Advanced HTML",
         description4: "DEPLOYMENT: Render",
         website: "https://calculator-top.onrender.com",
         github: "https://github.com/mimisha25/Calculator-TOP"
@@ -206,9 +185,9 @@ const officeTools = [
     {
         img: "https://images.unsplash.com/photo-1692158961713-73690ef06e6e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGxhbm5pbmd8ZW58MHwyfDB8fHwy",
         description: "To do List",
-        description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-        description2: "NODJS: Express.js",
-        description3: "HTML&CSS: Responsive, Advanced HTML",
+        description1: "JAVASCRIPT: Vanilla JS",
+        description2: "WEBPACK tool",
+        description3: "HTML&CSS: Responsive CSS, Advanced HTML",
         description4: "DEPLOYMENT: Render",
         website: "https://to-do-list-yphm.onrender.com",
         github: "https://github.com/mimisha25/To-do-list-TOP"
@@ -216,9 +195,9 @@ const officeTools = [
     {
         img: "https://images.unsplash.com/photo-1649151139875-ae8ea07082e2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8am9iJTIwaW50ZXJ2aWV3fGVufDB8MnwwfHx8Mg%3D%3D",
         description: "CV creator",
-        description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-        description2: "NODJS: Express.js",
-        description3: "HTML&CSS: Responsive, Advanced HTML",
+        description1: "JAVASCRIPT: Vite, ReactJS",
+        description4: "CLI: Eslint",
+        description3: "HTML&CSS: Responsive CSS, Advanced HTML",
         description4: "DEPLOYMENT: Render",
         website: "https://cv-application-top.onrender.com/",
         github: "https://github.com/mimisha25/CV-Application-TOP"
@@ -226,9 +205,8 @@ const officeTools = [
     {
         img: "https://images.unsplash.com/photo-1516888693095-f0e05366ddc6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfDJ8MHx8fDI%3D",
         description: "Library",
-        description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-        description2: "NODJS: Express.js",
-        description3: "HTML&CSS: Responsive, Advanced HTML",
+        description1: "JAVASCRIPT: Vanilla JS",
+        description3: "HTML&CSS: Responsive CSS, Advanced HTML",
         description4: "DEPLOYMENT: Render",
         website: "https://library-h5tp.onrender.com",
         github: "https://github.com/mimisha25/Library-TOP"
@@ -236,7 +214,7 @@ const officeTools = [
     {
         img: "https://images.unsplash.com/photo-1663530761401-15eefb544889?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfDJ8MHx8fDI%3D",
         description: "Restaurant Page",
-        description1: "JAVASCRIPT: All implementation was with React JS",
+        description1: "JAVASCRIPT: React JS",
         description2: "WEBPACK tool",
         description3: "HTML&CSS: Responsive, Advanced HTML, SaSS",
         description4: "DEPLOYMENT: Render",
@@ -244,23 +222,22 @@ const officeTools = [
         github: "https://github.com/mimisha25/Restaurant-Page-TOP"
     },
     {
-        img: "https://images.unsplash.com/photo-1586187543706-b43086b30978?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmlsZSUyMHVwbG9hZGVyfGVufDB8MnwwfHx8Mg%3D%3D",
-        description: "File Uploader",
-        description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-        description2: "NODJS: Express.js, Multer, PassportJS",
-        description3: "FRAMEWORK: EJS",
-        description4: "DEPLOYMENT: Render, Cloudinary",
-        website: "",
-        github: "https://github.com/mimisha25/folder-management-top"
+        img: "https://images.unsplash.com/photo-1562155618-e1a8bc2eb04f?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2VhdGhlcnxlbnwwfDB8MHx8fDA%3D",
+        description: "Weather API",
+        description1: "JAVASCRIPT: Vanilla JS",
+        description2: "WEBPACK tool",
+        description3: "HTML&CSS: Responsive, Advanced HTML",
+        description4: "DEPLOYMENT: Render",
+        website: "https://weather-api-3em4.onrender.com",
+        github: "https://github.com/mimisha25/Weather-API-TOP"
     }]
 
 
 const games = [{
     img: "https://images.unsplash.com/photo-1668901382969-8c73e450a1f5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGljJTIwdGFjJTIwdG9lfGVufDB8MnwwfHx8Mg%3D%3D",
     description: "Tic Tac Toe",
-    description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-    description2: "BOOTSTRAP: UI/UX Design",
-    description3: "HTML&CSS: Responsive, Advanced HTML",
+    description1: "JAVASCRIPT: Vanilla JS",
+    description3: "HTML&CSS: Responsive CSS, Advanced HTML",
     description4: "DEPLOYMENT: Render",
     website: "https://tic-tac-toe-eatn.onrender.com",
     github: "https://github.com/mimisha25/Tic-Tac-Toe-TOP"
@@ -268,9 +245,8 @@ const games = [{
 {
     img: "https://images.unsplash.com/photo-1574858818846-886b8380713b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJvY2slMjBwYXBlciUyMHNjaXNzb3JzfGVufDB8MnwwfHx8Mg%3D%3D",
     description: "Rock Paper Scissor",
-    description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-    description2: "BOOTSTRAP: UI/UX Design",
-    description3: "HTML&CSS: Responsive, Advanced HTML",
+    description1: "JAVASCRIPT: Vanilla JS",
+    description3: "HTML&CSS: Responsive CSS, Advanced HTML",
     description4: "DEPLOYMENT: Render",
     website: "https://rock-paper-scissors-top.onrender.com",
     github: "https://github.com/mimisha25/Rock-Paper-Scissors-TOP"
@@ -278,9 +254,8 @@ const games = [{
 {
     img: "https://images.unsplash.com/photo-1668605048045-a5f36b3e1739?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1lbW9yeSUyMGdhbWV8ZW58MHwyfDB8fHwy",
     description: "Memory Card",
-    description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-    description2: "BOOTSTRAP: UI/UX Design",
-    description3: "HTML&CSS: Responsive, Advanced HTML",
+    description1: "JAVASCRIPT: Vite, ReactJS, ",
+    description3: "HTML&CSS: Responsive CSS, Advanced HTML",
     description4: "DEPLOYMENT: Render",
     website: "https://memory-card-r7vz.onrender.com",
     github: "https://github.com/mimisha25/Memory-Card-TOP"
@@ -288,12 +263,21 @@ const games = [{
 {
     img: "https://images.unsplash.com/photo-1637761566180-9dbde4fdab77?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZXRjaCUyMGElMjBza2V0Y2h8ZW58MHwyfDB8fHwy",
     description: "Etch a Scratch",
-    description1: "JAVASCRIPT: All implementation was with Vanilla JS",
-    description2: "BOOTSTRAP: UI/UX Design",
-    description3: "HTML&CSS: Responsive, Advanced HTML",
+    description1: "JAVASCRIPT: Vanilla JS",
+    description3: "HTML&CSS: Responsive CSS, Advanced HTML",
     description4: "DEPLOYMENT: Render",
     website: "https://etch-a-scretch-top.onrender.com",
     github: "https://github.com/mimisha25/Etch-a-Scretch-TOP"
+},
+{
+    img: "https://images.unsplash.com/photo-1592080464412-acce590eead0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmF0dGxlc2hpcHxlbnwwfDB8MHx8fDI%3D",
+    description: "BattleShip",
+    description1: "JAVASCRIPT: Vanilla JS",
+    description2: "TEST: JEST, WEBPACK tool",
+    description3: "HTML&CSS: Responsive CSS, Advanced HTML",
+    description4: "DEPLOYMENT: Render",
+    website: "https://battleship-vcu5.onrender.com",
+    github: "https://github.com/mimisha25/Battleship-TOP"
 }]
 
 const contactConfig = {
