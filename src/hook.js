@@ -16,10 +16,9 @@ const introdata = {
 
 const dataabout = {
     title: "Mia",
-    phone: "Phone: 555 555 555 55",
-    email: "Email: email@email.com",
-    location: "Location: Remote"
-
+    phone: "Phone: included in CV PDF",
+    email: "Email: included in CV PDF",
+    location: "Location: On-Site, Remote, Hybrid"
 };
 const worktimeline = [{
     jobtitle: "Software Engineer/Front-End Developer",
@@ -281,9 +280,9 @@ const games = [{
 }]
 
 const contactConfig = {
-    YOUR_EMAIL: "",
-    YOUR_FONE: "",
-    description: "Im open to work as a full-time software engineer.",
+    YOUR_EMAIL: "included in CV PDF",
+    YOUR_FONE: "included in CV PDF",
+    description: "Note: Please, contact me through phone or email directly mentioned in CV PDF",
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
